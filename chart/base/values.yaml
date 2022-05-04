@@ -22,6 +22,9 @@ service:
   type: ClusterIP
   port: 3550
 
+submariner:
+  enabled: true
+
 route:
   enabled: false
 
